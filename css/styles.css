@@ -1,0 +1,13 @@
+body {
+  background: #e5e5e5;
+}
+.logo-web {
+  color: #2196f3;
+}
+.logo-studio {
+  color: #212121;
+}
+.li-studio :hover,
+:focus {
+  color: #2196f3;
+}
