@@ -1,13 +1,81 @@
+:root {
+  --primary-tex-color--: #757575;
+  --title-tex-color--: #212121;
+  --accent-tex-color--: #2196f3;
+  --White-color--: #ffffff;
+}
 body {
-  background: #e5e5e5;
+  color: #757575;
+  background-color: #e5e5e5;
 }
-.logo-web {
-  color: #2196f3;
+
+/* навигация */
+ul {
+  list-style: none;
 }
-.logo-studio {
-  color: #212121;
+
+.web {
+  color: var(--accent-tex-color--);
 }
-.li-studio :hover,
-:focus {
-  color: #2196f3;
+.studio-head {
+  color: var(--title-tex-color--);
 }
+.link {
+  color: var(--title-tex-color--);
+}
+.site-nav :hover,
+.site-nav :focus {
+  color: var(--accent-tex-color--);
+}
+.auth-nav :hover,
+.auth-nav :focus {
+  color: var(--accent-tex-color--);
+}
+.mailto-nav {
+  color: var(--primary-tex-color--);
+}
+.tel-nav {
+  color: var(--primary-tex-color--);
+}
+
+.section-title {
+  color: var(--title-tex-color--);
+}
+.title {
+  color: var(--primary-tex-color--);
+}
+/* Герой */
+.hero,
+.footer {
+  background-color: #2f303a;
+}
+
+.hero-title {
+  color: var(--White-color--);
+}
+.button {
+  color: var(--White-color--);
+  background-color: var(--accent-tex-color--);
+}
+
+.studio-foot {
+  color: var(--White-color--);
+}
+.footer address {
+  color: var(--White-color--);
+}
+.mailto-foot {
+  color: white;
+}
+.tel-foot {
+  color: white;
+}
+
+/* .button.primary {
+  color: var(--title-tex-color--);
+  background-color: var(--primary-tex-color--);
+}
+.button.secondary {
+  color: var(--White-color--);
+  background-color: var(--accent-tex-color--);
+} */
