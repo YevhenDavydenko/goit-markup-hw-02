@@ -20,20 +20,29 @@ ul {
 .studio-head {
   color: var(--title-tex-color--);
 }
+.studio-foot {
+  color: var(--White-color--);
+}
 .link {
   color: var(--title-tex-color--);
 }
-.site-nav :hover,
-.site-nav :focus {
+.studio-nav :hover,
+.studio-nav :focus {
   color: var(--accent-tex-color--);
 }
-.auth-nav :hover,
-.auth-nav :focus {
+.contact-nav :hover,
+.contact-nav :focus {
   color: var(--accent-tex-color--);
 }
-.mailto-nav,
-.tel-nav {
+.contact-link {
   color: var(--primary-tex-color--);
+}
+.contact {
+  color: var(--White-color--);
+}
+.contact:hover,
+.contact:focus {
+  color: var(--accent-tex-color--);
 }
 
 .section-title {
@@ -45,6 +54,7 @@ ul {
 /* Герой */
 .hero,
 .footer {
+  color: var(--White-color--);
   background-color: #2f303a;
 }
 
@@ -52,16 +62,6 @@ ul {
   color: var(--White-color--);
 }
 
-.studio-foot {
-  color: var(--White-color--);
-}
-.footer address {
-  color: var(--White-color--);
-}
-.mailto-foot,
-.tel-foot {
-  color: white;
-}
 .portfolio-nav {
   background-color: #f5f4fa;
 }
