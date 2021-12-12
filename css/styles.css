@@ -31,9 +31,7 @@ ul {
 .auth-nav :focus {
   color: var(--accent-tex-color--);
 }
-.mailto-nav {
-  color: var(--primary-tex-color--);
-}
+.mailto-nav,
 .tel-nav {
   color: var(--primary-tex-color--);
 }
@@ -53,10 +51,6 @@ ul {
 .hero-title {
   color: var(--White-color--);
 }
-.button {
-  color: var(--White-color--);
-  background-color: var(--accent-tex-color--);
-}
 
 .studio-foot {
   color: var(--White-color--);
@@ -64,18 +58,22 @@ ul {
 .footer address {
   color: var(--White-color--);
 }
-.mailto-foot {
-  color: white;
-}
+.mailto-foot,
 .tel-foot {
   color: white;
 }
-
-/* .button.primary {
-  color: var(--title-tex-color--);
-  background-color: var(--primary-tex-color--);
+.portfolio-nav {
+  background-color: #f5f4fa;
 }
-.button.secondary {
+.button {
   color: var(--White-color--);
   background-color: var(--accent-tex-color--);
-} */
+}
+.button,
+.portfolio-nav:hover {
+  background-color: var(--accent-tex-color--);
+}
+.button,
+.portfolio-nav:focus {
+  background-color: var(--accent-tex-color--);
+}
