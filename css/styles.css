@@ -95,7 +95,7 @@ ul {
 .button {
   color: var(--White-color--);
   background-color: var(--accent-tex-color--);
-
+  cursor: pointer;
   font-weight: bold;
   font-size: 16px;
   line-height: 1.9;
@@ -104,6 +104,7 @@ ul {
 .button-primary:hover,
 .button-primary:focus {
   background-color: var(--accent-tex-color--);
+  cursor: pointer;
 }
 .hero,
 .footer {
