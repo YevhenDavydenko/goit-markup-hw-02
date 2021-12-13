@@ -4,6 +4,7 @@
   --accent-tex-color--: #2196f3;
   --White-color--: #ffffff;
 }
+
 body {
   color: #757575;
   background-color: #e5e5e5;
@@ -19,9 +20,9 @@ ul {
 }
 /* Лого */
 .logo {
-  font-family: Releway;
-
-  font-weight: bold;
+  font-family: Raleway;
+  text-decoration: none;
+  font-weight: 700;
   font-size: 26px;
   line-height: 1.2;
   letter-spacing: 0.03em;
@@ -43,6 +44,16 @@ ul {
 
 .link {
   color: var(--title-tex-color--);
+  text-decoration: none;
+}
+.contact-link {
+  text-decoration: none;
+  color: var(--primary-tex-color--);
+
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.1;
+  letter-spacing: 0.02em;
 }
 .site-nav :hover,
 .site-nav :focus {
@@ -68,6 +79,14 @@ ul {
 }
 .contact {
   color: var(--White-color--);
+  text-decoration: none;
+
+  font-size: 14px;
+  line-height: 1.8;
+
+  letter-spacing: 0.03em;
+
+  color: rgba(255, 255, 255, 0.6);
 }
 .contact:hover,
 .contact:focus {
@@ -116,7 +135,7 @@ ul {
 .section-title {
   color: var(--title-tex-color--);
 
-  font-weight: bold;
+  font-weight: 700;
   font-size: 14px;
   line-height: 1.1;
   letter-spacing: 0.03em;
@@ -133,7 +152,7 @@ ul {
 .team {
   color: var(--title-tex-color--);
 
-  font-weight: bold;
+  font-weight: 700;
   font-size: 36px;
   line-height: 1.2;
   text-align: center;
@@ -159,16 +178,31 @@ ul {
 /* Футер */
 .studio-foot {
   color: var(--White-color--);
+  text-decoration: none;
+}
+.address {
+  color: var(--White-color--);
+
+  font-family: Roboto;
+  font-style: normal;
+  font-size: 14px;
+  line-height: 1.8;
+  letter-spacing: 0.03em;
 }
 /* Портфолио */
+.button-primary {
+  font-family: Roboto;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.6;
 
-/* .filters {
-  background-color: #f5f4fa;
-} */
+  text-align: center;
+  letter-spacing: 0.03em;
+}
 .lable {
   color: var(--title-tex-color--);
 
-  font-weight: bold;
+  font-weight: 700;
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
